@@ -177,14 +177,15 @@ dependencies:
   - zipp=3.6.0=pyhd8ed1ab_0
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.5.0=ha95c52a_0
+  - dlib==19.19
+  - git
   - pip:
     - absl-py==0.14.1
     - astor==0.8.1
     - cached-property==1.5.2
-    - charset-normalizer==2.0.7
     - cmake==3.21.3
+    - charset-normalizer==2.0.7
     - dataclasses==0.8
-    - dlib==19.22.1
     - dominate==2.6.0
     - future==0.18.2
     - gast==0.5.2
@@ -214,3 +215,4 @@ dependencies:
     - urllib3==1.26.7
     - werkzeug==2.0.2
     - wrapt==1.13.2
+    - fastapi[standard]
