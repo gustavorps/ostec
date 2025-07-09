@@ -216,3 +216,4 @@ dependencies:
     - werkzeug==2.0.2
     - wrapt==1.13.2
     - fastapi[standard]
+    - ./external/deep3dfacerecon/nvdiffrast
